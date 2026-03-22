@@ -1983,3 +1983,20 @@ body {
     opacity: 1;
   }
 }
+
+
+.mensaje {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  white-space: nowrap;
+  
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: #ff4da6;
+  text-shadow: 0 0 10px #ff99cc, 0 0 20px #ff66b2, 0 0 30px #ff1a8c;
+  animation: latido 1.5s infinite;
+}
